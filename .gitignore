@@ -1,0 +1,20 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Salidas temporales de trayectorias y logs
+ros2_ws/trayectoria_*/
+miau_errores/
+miau_logs/
+miau_trayectorias_bak_*/
+
+# Python y respaldos
+__pycache__/
+*.py[cod]
+*.bak
+*.swp
+.vscode/
